@@ -1,0 +1,8 @@
+//Items
+item.testitem.name=Test Item
+
+//Blocks
+tile.testblock.name=Test Block
+tile.woodpot.name=Wooden Pot
+tile.claypot.name=Clay Pot
+tile.ironpot.name=Iron Pot
