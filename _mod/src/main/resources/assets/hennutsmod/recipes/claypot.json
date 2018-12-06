@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "# #",
-        "# #",
-        "###"
+        "###",
+        "# #"
     ],
     "key": {
         "#": {
-            "item": "minecraft:iron"
+            "item": "minecraft:brick"
         }
     },
     "result": {
-        "item": "hennutsmod:ironpot",
+        "item": "hennutsmod:claypot",
         "count": 1
     },
-    "group": "ironpot"
+    "group": "claypot"
 }

@@ -2,15 +2,13 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "# #",
-        "# #",
-        "/#/"
+        "###",
+        "# #"
     ],
     "key": {
         "#": {
-            "item": "minecraft:oak_planks"
-        },
-        "/": {
-            "item": "minecraft:stick"
+            "item": "minecraft:planks",
+            "data": 0
         }
     },
     "result": {
