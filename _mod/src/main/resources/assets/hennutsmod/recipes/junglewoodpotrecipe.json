@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:planks",
+            "data": 3
+        }
+    },
+    "result": {
+        "item": "hennutsmod:junglewoodpot",
+        "count": 1
+    },
+    "group": "woodpot"
+}

@@ -3,6 +3,11 @@ item.testitem.name=Test Item
 
 //Blocks
 tile.testblock.name=Test Block
-tile.woodpot.name=Wooden Pot
+tile.oakwoodpot.name=Wooden Pot
+tile.birchwoodpot.name=Wooden Pot
+tile.sprucewoodpot.name=Wooden Pot
+tile.acaciawoodpot.name=Wooden Pot
+tile.bigoakwoodpot.name=Wooden Pot
+tile.junglewoodpot.name=Wooden Pot
 tile.claypot.name=Clay Pot
 tile.ironpot.name=Iron Pot

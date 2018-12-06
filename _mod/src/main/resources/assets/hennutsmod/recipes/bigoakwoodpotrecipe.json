@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:planks",
+            "data": 5
+        }
+    },
+    "result": {
+        "item": "hennutsmod:bigoakwoodpot",
+        "count": 1
+    },
+    "group": "woodpot"
+}
