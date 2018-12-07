@@ -25,5 +25,4 @@ public abstract class PotBase extends BlockWithModel {
 				new AxisAlignedBB(0, 0, 0, 1, 0.75D, 1)
 			);		
 	}
-
 }
