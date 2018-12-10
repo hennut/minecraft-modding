@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "stage=zero": { "model": "hennutsmod:cheesemakerbase" },
+        "stage=one": { "model": "hennutsmod:cheesemakerbase" },
+        "stage=butter": { "model": "hennutsmod:cheesemakerbutter" },
+        "stage=three": { "model": "hennutsmod:cheesemakerbutter" },
+        "stage=four": { "model": "hennutsmod:cheesemakerbutter" },
+        "stage=fife": { "model": "hennutsmod:cheesemakerbutter" },
+        "stage=cheese": { "model": "hennutsmod:cheesemakercheese" }
+    }
+}
