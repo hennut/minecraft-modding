@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "hennutsmod:butterblock"
+        }
+    },
+    "result": {
+        "item": "hennutsmod:butter",
+        "count": 9
+    },
+    "group": "butter"
+}

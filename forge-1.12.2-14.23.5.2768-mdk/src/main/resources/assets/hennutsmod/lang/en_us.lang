@@ -1,8 +1,10 @@
 //Items
-item.testitem.name=Test Item
+item.butter.name=Butter
+item.cheeseslice.name=Cheese Slice
+item.beequeen.name=Bee Queen
+item.honeycomb.name=Honey Comb
 
 //Blocks
-tile.testblock.name=Test Block
 tile.oakwoodpot.name=Wooden Pot
 tile.birchwoodpot.name=Wooden Pot
 tile.sprucewoodpot.name=Wooden Pot
@@ -11,4 +13,7 @@ tile.bigoakwoodpot.name=Wooden Pot
 tile.junglewoodpot.name=Wooden Pot
 tile.claypot.name=Clay Pot
 tile.ironpot.name=Iron Pot
-tile.cheesemaker.name=Cheese Maker
+tile.cheesemaker.name=Iron Pot with Milk
+tile.cheeseblock.name=Cheese Block
+tile.butterblock.name=Butter Block
+tile.beehive.name=Beehive

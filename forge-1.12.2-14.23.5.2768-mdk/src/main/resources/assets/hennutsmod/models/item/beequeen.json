@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-       "layer0": "hennutsmod:items/testitem"
+       "layer0": "hennutsmod:items/beequeen"
    }
 }

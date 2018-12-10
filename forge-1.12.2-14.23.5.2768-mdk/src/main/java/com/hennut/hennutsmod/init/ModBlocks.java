@@ -3,13 +3,16 @@ package com.hennut.hennutsmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hennut.hennutsmod.blocks.BlockAdjustable;
 import com.hennut.hennutsmod.blocks.BlockBase;
+import com.hennut.hennutsmod.blocks.beehive.Beehive;
 import com.hennut.hennutsmod.blocks.cheesemaker.CheeseMaker;
 import com.hennut.hennutsmod.blocks.pot.ClayPot;
 import com.hennut.hennutsmod.blocks.pot.IronPot;
 import com.hennut.hennutsmod.blocks.pot.WoodPot;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
 public class ModBlocks {
@@ -27,5 +30,11 @@ public class ModBlocks {
 	public static final Block CLAY_POT = new ClayPot("claypot");
 	public static final Block IRON_POT = new IronPot("ironpot");
 	
+	//Cheese
 	public static final Block CHEESE_MAKER = new CheeseMaker("cheesemaker");
+	public static final Block CHEESE_BLOCK = new BlockAdjustable("cheeseblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false);
+	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false);
+	
+	//Honey
+	public static final Block BEEHIVE = new Beehive("beehive");
 }

@@ -24,7 +24,7 @@ public class IronPot extends ClayPot {
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
 		if(Item.getIdFromItem(playerIn.getHeldItem(hand).getItem()) == Item.getIdFromItem(Items.MILK_BUCKET)){
 			worldIn.setBlockState(pos, ModBlocks.CHEESE_MAKER.getDefaultState());
-			playerIn.setHeldItem(hand, new ItemStack(Items.BUCKET));;
+			playerIn.setHeldItem(hand, new ItemStack(Items.BUCKET));
 			return true;
 		}
 		

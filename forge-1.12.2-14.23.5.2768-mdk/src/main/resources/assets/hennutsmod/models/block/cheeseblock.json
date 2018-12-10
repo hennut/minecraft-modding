@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "hennutsmod:blocks/testblock"
+       "all": "hennutsmod:blocks/cheese"
    }
 }

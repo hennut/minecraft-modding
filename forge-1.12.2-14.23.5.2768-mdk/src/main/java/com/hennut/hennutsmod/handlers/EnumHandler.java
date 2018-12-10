@@ -42,4 +42,31 @@ public class EnumHandler {
 		}
 
 	}
+	
+	public static enum BeehiveStage implements IStringSerializable {
+		UNFILLED("unfilled", 0), ONE("one", 1), TWO("two", 2), THREE("three", 3), FOUR("four", 4);
+
+		private int ID;
+		private String name;
+
+		private BeehiveStage(String name, int ID) {
+			this.ID = ID;
+			this.name = name;
+		}
+
+		@Override
+		public String getName() {
+			return this.name;
+		}
+
+		public int getID() {
+			return ID;
+		}
+
+		@Override
+		public String toString() {
+			return getName();
+		}
+
+	}
 }

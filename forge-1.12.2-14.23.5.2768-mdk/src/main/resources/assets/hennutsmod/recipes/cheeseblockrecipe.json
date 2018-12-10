@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "hennutsmod:cheeseslice"
+        }
+    },
+    "result": {
+        "item": "hennutsmod:cheeseblock",
+        "count": 1
+    },
+    "group": "cheese"
+}
