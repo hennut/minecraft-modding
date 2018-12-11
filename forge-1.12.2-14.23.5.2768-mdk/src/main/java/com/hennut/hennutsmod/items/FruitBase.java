@@ -19,22 +19,19 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 
-public class FruitBase extends FoodBase implements IPlantable {
+public abstract class FruitBase extends FoodBase implements IPlantable {
 	
 	private EnumPlantType type;
-	private IBlockState block;
 	
-	public FruitBase(String name, int amount, boolean isWolfFood, EnumPlantType type, Block crop) {
+	public FruitBase(String name, int amount, boolean isWolfFood, EnumPlantType type) {
 		super(name, amount, isWolfFood);
 		this.type = type;
-		this.block = crop.getDefaultState();
 	}
 
 	
-	public FruitBase(String name, int amount, float saturation, boolean isWolfFood, EnumPlantType type, Block crop) {
+	public FruitBase(String name, int amount, float saturation, boolean isWolfFood, EnumPlantType type) {
 		super(name, amount, saturation, isWolfFood);
 		this.type = type;
-		this.block = crop.getDefaultState();
 	}
 	
 	@Override
@@ -43,7 +40,7 @@ public class FruitBase extends FoodBase implements IPlantable {
 		IBlockState state = worldIn.getBlockState(pos);
 		
 		if(facing == EnumFacing.UP && player.canPlayerEdit(pos, facing, itemStack) && state.getBlock().canSustainPlant(state, worldIn, pos, EnumFacing.UP, this) && worldIn.isAirBlock(pos.up())) {
-			worldIn.setBlockState(pos.up(), block);
+			worldIn.setBlockState(pos.up(), getCropState ());
 			itemStack.shrink(1);
 			return EnumActionResult.SUCCESS;
 		}
@@ -57,7 +54,12 @@ public class FruitBase extends FoodBase implements IPlantable {
 
 	@Override
 	public IBlockState getPlant(IBlockAccess world, BlockPos pos) {
-		return block;
+		return getCropState ();
 	}
 
+	protected abstract Block getCropBlock ();
+	
+	private IBlockState getCropState () {
+		return getCropBlock().getDefaultState();
+	}
 }

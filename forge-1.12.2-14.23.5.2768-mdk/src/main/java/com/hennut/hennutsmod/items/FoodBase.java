@@ -2,6 +2,7 @@ package com.hennut.hennutsmod.items;
 
 import com.hennut.hennutsmod.HennutsMod;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.init.ModTabs;
 import com.hennut.hennutsmod.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -25,7 +26,7 @@ public class FoodBase extends ItemFood implements IHasModel {
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(ModTabs.debugTab);
 		
 		ModItems.ITEMS.add(this);
 	}

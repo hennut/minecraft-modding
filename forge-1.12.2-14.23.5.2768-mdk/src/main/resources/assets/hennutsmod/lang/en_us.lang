@@ -1,8 +1,18 @@
+//Tabs
+itemGroup.debugtab=Hennuts Mod: Debug
+itemGroup.pottab=Pots
+itemGroup.honeytab=Honey
+itemGroup.croptab=Garden
+itemGroup.naturetab=Environment
+
 //Items
 item.butter.name=Butter
 item.cheeseslice.name=Cheese Slice
 item.beequeen.name=Bee Queen
 item.honeycomb.name=Honey Comb
+item.wildleaf.name=Wild Leaf
+item.lettucefruit.name=Lettuce
+item.lettuceseed.name=Lettuce Seeds
 
 //Blocks
 tile.oakwoodpot.name=Wooden Pot

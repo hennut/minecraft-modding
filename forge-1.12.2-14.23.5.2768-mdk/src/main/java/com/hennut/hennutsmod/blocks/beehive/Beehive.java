@@ -3,10 +3,10 @@ package com.hennut.hennutsmod.blocks.beehive;
 import java.util.Random;
 
 import com.hennut.hennutsmod.blocks.BlockWithModel;
-import com.hennut.hennutsmod.handlers.EnumHandler.BeehiveStage;
-import com.hennut.hennutsmod.handlers.EnumHandler.CheeseStage;
 import com.hennut.hennutsmod.init.ModBlocks;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.util.handlers.EnumHandler.BeehiveStage;
+import com.hennut.hennutsmod.util.handlers.EnumHandler.CheeseStage;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

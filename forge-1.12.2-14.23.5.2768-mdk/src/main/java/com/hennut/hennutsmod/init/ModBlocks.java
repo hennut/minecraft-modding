@@ -5,11 +5,15 @@ import java.util.List;
 
 import com.hennut.hennutsmod.blocks.BlockAdjustable;
 import com.hennut.hennutsmod.blocks.BlockBase;
+import com.hennut.hennutsmod.blocks.CropBase;
 import com.hennut.hennutsmod.blocks.beehive.Beehive;
 import com.hennut.hennutsmod.blocks.cheesemaker.CheeseMaker;
+import com.hennut.hennutsmod.blocks.crops.WildLeafCrop;
 import com.hennut.hennutsmod.blocks.pots.ClayPot;
 import com.hennut.hennutsmod.blocks.pots.IronPot;
 import com.hennut.hennutsmod.blocks.pots.WoodPot;
+import com.hennut.hennutsmod.util.domestication.Domestication.PLANT_TYPES;
+import com.hennut.hennutsmod.util.handlers.EnumHandler.CropAge;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -19,7 +23,7 @@ public class ModBlocks {
 
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	
+
 	//Pots
 	public static final Block OAK_WOOD_POT = new WoodPot("oakwoodpot");
 	public static final Block BIRCH_WOOD_POT = new WoodPot("birchwoodpot");
@@ -37,4 +41,10 @@ public class ModBlocks {
 	
 	//Honey
 	public static final Block BEEHIVE = new Beehive("beehive");
+	
+	//Plants
+		//Shrub
+		//Wild
+		public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop");
+		//Domesticated
 }

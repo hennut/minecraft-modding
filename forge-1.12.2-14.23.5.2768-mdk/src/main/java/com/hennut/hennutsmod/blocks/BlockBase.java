@@ -3,6 +3,7 @@ package com.hennut.hennutsmod.blocks;
 import com.hennut.hennutsmod.HennutsMod;
 import com.hennut.hennutsmod.init.ModBlocks;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.init.ModTabs;
 import com.hennut.hennutsmod.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -17,7 +18,7 @@ public class BlockBase extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(ModTabs.debugTab);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

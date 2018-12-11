@@ -35,7 +35,6 @@ public class HennutsMod {
     public static void init(FMLInitializationEvent event)
     {
         // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
     
     @EventHandler

@@ -2,6 +2,7 @@ package com.hennut.hennutsmod.items;
 
 import com.hennut.hennutsmod.HennutsMod;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.init.ModTabs;
 import com.hennut.hennutsmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,7 +13,7 @@ public class ItemBase extends Item implements IHasModel {
 	public ItemBase (String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(ModTabs.debugTab);
 		
 		ModItems.ITEMS.add(this);
 	}

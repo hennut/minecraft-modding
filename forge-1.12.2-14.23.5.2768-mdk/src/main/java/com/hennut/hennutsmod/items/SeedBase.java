@@ -13,16 +13,14 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
 import net.minecraftforge.common.IPlantable;
 
-public class SeedBase extends ItemBase implements IPlantable {
+public abstract class SeedBase extends ItemBase implements IPlantable {
 
 	private EnumPlantType type;
-	private IBlockState block;
 	
-	public SeedBase(String name, EnumPlantType type, Block crop) {
+	public SeedBase(String name, EnumPlantType type) {
 		super(name);
 		
 		this.type = type;
-		this.block = crop.getDefaultState();
 	}
 	
 	@Override
@@ -31,7 +29,7 @@ public class SeedBase extends ItemBase implements IPlantable {
 		IBlockState state = worldIn.getBlockState(pos);
 		
 		if(facing == EnumFacing.UP && player.canPlayerEdit(pos, facing, itemStack) && state.getBlock().canSustainPlant(state, worldIn, pos, EnumFacing.UP, this) && worldIn.isAirBlock(pos.up())) {
-			worldIn.setBlockState(pos.up(), block);
+			worldIn.setBlockState(pos.up(), getCropState ());
 			itemStack.shrink(1);
 			return EnumActionResult.SUCCESS;
 		}
@@ -45,7 +43,12 @@ public class SeedBase extends ItemBase implements IPlantable {
 
 	@Override
 	public IBlockState getPlant(IBlockAccess world, BlockPos pos) {
-		return block;
+		return getCropState ();
 	}
 
+	protected abstract Block getCropBlock ();
+	
+	private IBlockState getCropState () {
+		return getCropBlock().getDefaultState();
+	}
 }
