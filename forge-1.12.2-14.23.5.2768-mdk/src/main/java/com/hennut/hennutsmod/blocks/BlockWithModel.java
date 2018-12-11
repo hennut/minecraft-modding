@@ -21,6 +21,16 @@ public class BlockWithModel extends BlockAdjustable {
 		this.aabb = aabb;
 	}
 	
+	public BlockWithModel(String name, Material material, SoundType soundType, float hardness, float resistance, String tool, int harvestLevel, int lightLevel, float slipperiness, boolean unbreakable, AxisAlignedBB aabb) {
+		super(name, material, soundType, hardness, resistance, tool, harvestLevel, lightLevel, slipperiness, unbreakable);
+		this.aabb = aabb;
+	}
+	
+	public BlockWithModel(String name, Material material, SoundType soundType, float hardness, float resistance, String tool, int harvestLevel, int lightLevel, int lightOpacity, float slipperiness, boolean unbreakable, AxisAlignedBB aabb) {
+		super(name, material, soundType, hardness, resistance, tool, harvestLevel, lightLevel, lightOpacity, slipperiness, unbreakable);
+		this.aabb = aabb;
+	}
+	
 	@Override
 	public boolean isOpaqueCube(IBlockState state) {
 		return false;

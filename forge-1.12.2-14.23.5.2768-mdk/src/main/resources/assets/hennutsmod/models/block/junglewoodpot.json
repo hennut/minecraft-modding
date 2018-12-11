@@ -2,6 +2,7 @@
     "parent": "block/block",
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+        "particle": "hennutsmod:blocks/junglewoodpot",
         "0": "hennutsmod:blocks/junglewoodpot",
         "1": "hennutsmod:blocks/junglewoodpot"
     },

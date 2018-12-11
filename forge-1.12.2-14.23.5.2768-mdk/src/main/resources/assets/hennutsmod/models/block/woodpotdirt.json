@@ -1,6 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+        "particle": "hennutsmod:blocks/woodpot",
         "0": "blocks/woodpot",
         "1": "blocks/potdirtside",
         "2": "blocks/potdirt"

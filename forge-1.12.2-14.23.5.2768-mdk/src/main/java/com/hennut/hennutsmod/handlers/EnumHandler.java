@@ -69,4 +69,31 @@ public class EnumHandler {
 		}
 
 	}
+	
+	public static enum CropAge implements IStringSerializable {
+		ZERO("ZERO", 0), ONE("one", 1), TWO("two", 2), THREE("three", 3), FOUR("four", 4), FIVE("five", 5), SIX("six", 6), SEVEN("seven", 7);
+
+		private int ID;
+		private String name;
+
+		private CropAge(String name, int ID) {
+			this.ID = ID;
+			this.name = name;
+		}
+
+		@Override
+		public String getName() {
+			return this.name;
+		}
+
+		public int getID() {
+			return ID;
+		}
+
+		@Override
+		public String toString() {
+			return getName();
+		}
+
+	}
 }

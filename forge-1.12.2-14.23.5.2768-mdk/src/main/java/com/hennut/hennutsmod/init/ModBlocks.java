@@ -7,9 +7,9 @@ import com.hennut.hennutsmod.blocks.BlockAdjustable;
 import com.hennut.hennutsmod.blocks.BlockBase;
 import com.hennut.hennutsmod.blocks.beehive.Beehive;
 import com.hennut.hennutsmod.blocks.cheesemaker.CheeseMaker;
-import com.hennut.hennutsmod.blocks.pot.ClayPot;
-import com.hennut.hennutsmod.blocks.pot.IronPot;
-import com.hennut.hennutsmod.blocks.pot.WoodPot;
+import com.hennut.hennutsmod.blocks.pots.ClayPot;
+import com.hennut.hennutsmod.blocks.pots.IronPot;
+import com.hennut.hennutsmod.blocks.pots.WoodPot;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -33,7 +33,7 @@ public class ModBlocks {
 	//Cheese
 	public static final Block CHEESE_MAKER = new CheeseMaker("cheesemaker");
 	public static final Block CHEESE_BLOCK = new BlockAdjustable("cheeseblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false);
-	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false);
+	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, 1.1f, false);
 	
 	//Honey
 	public static final Block BEEHIVE = new Beehive("beehive");

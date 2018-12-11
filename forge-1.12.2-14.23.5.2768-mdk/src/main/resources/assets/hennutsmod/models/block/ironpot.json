@@ -2,6 +2,7 @@
     "parent": "block/block",
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+        "particle": "hennutsmod:blocks/ironpot",
         "0": "hennutsmod:blocks/ironpot",
         "1": "hennutsmod:blocks/ironpot"
     },

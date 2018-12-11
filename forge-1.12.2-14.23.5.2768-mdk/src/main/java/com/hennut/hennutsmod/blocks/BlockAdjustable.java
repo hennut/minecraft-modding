@@ -29,4 +29,31 @@ public class BlockAdjustable extends BlockBase {
 
 		if(unbreakable)	setBlockUnbreakable();
 	}
+	
+	public BlockAdjustable(String name, Material material, SoundType soundType, float hardness, float resistance, String tool, int harvestLevel, int lightLevel, float slipperiness, boolean unbreakable) {
+		super(name, material);
+		
+		setDefaultSlipperiness(slipperiness);
+		setSoundType(soundType);
+		setHardness(hardness);
+		setResistance(resistance);
+		setHarvestLevel(tool, harvestLevel);
+		setLightLevel(lightLevel);
+
+		if(unbreakable)	setBlockUnbreakable();
+	}
+	
+	public BlockAdjustable(String name, Material material, SoundType soundType, float hardness, float resistance, String tool, int harvestLevel, int lightLevel, int lightOpacity, float slipperiness, boolean unbreakable) {
+		super(name, material);
+		
+		setDefaultSlipperiness(slipperiness);
+		setSoundType(soundType);
+		setHardness(hardness);
+		setResistance(resistance);
+		setHarvestLevel(tool, harvestLevel);
+		setLightLevel(lightLevel);
+		setLightOpacity(lightOpacity);
+
+		if(unbreakable)	setBlockUnbreakable();
+	}
 }
