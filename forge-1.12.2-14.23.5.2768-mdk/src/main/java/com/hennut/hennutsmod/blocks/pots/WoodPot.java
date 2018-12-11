@@ -2,6 +2,7 @@ package com.hennut.hennutsmod.blocks.pots;
 
 import com.hennut.hennutsmod.blocks.BlockWithModel;
 import com.hennut.hennutsmod.init.ModBlocks;
+import com.hennut.hennutsmod.init.ModTabs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

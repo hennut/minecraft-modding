@@ -2,6 +2,7 @@ package com.hennut.hennutsmod.blocks.crops;
 
 import com.hennut.hennutsmod.blocks.CropBase;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.init.ModTabs;
 import com.hennut.hennutsmod.util.domestication.Domestication.PLANT_TYPES;
 import com.hennut.hennutsmod.util.handlers.EnumHandler.CropAge;
 

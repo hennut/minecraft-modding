@@ -22,11 +22,18 @@ import net.minecraftforge.common.IPlantable;
 
 public class FoodBase extends ItemFood implements IHasModel {
 
+	public FoodBase(String name, int amount) {
+		super(amount, false);
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		
+		ModItems.ITEMS.add(this);
+	}
+	
 	public FoodBase(String name, int amount, boolean isWolfFood) {
 		super(amount, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(ModTabs.debugTab);
 		
 		ModItems.ITEMS.add(this);
 	}

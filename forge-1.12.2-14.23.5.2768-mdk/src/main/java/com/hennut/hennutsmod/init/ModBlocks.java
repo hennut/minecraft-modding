@@ -25,26 +25,26 @@ public class ModBlocks {
 	
 
 	//Pots
-	public static final Block OAK_WOOD_POT = new WoodPot("oakwoodpot");
-	public static final Block BIRCH_WOOD_POT = new WoodPot("birchwoodpot");
-	public static final Block SPRUCE_WOOD_POT = new WoodPot("sprucewoodpot");
-	public static final Block ACACIA_WOOD_POT = new WoodPot("acaciawoodpot");
-	public static final Block BIG_OAK_WOOD_POT = new WoodPot("bigoakwoodpot");
-	public static final Block JUNGLE_WOOD_POT = new WoodPot("junglewoodpot");
-	public static final Block CLAY_POT = new ClayPot("claypot");
-	public static final Block IRON_POT = new IronPot("ironpot");
+	public static final Block OAK_WOOD_POT = new WoodPot("oakwoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block BIRCH_WOOD_POT = new WoodPot("birchwoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block SPRUCE_WOOD_POT = new WoodPot("sprucewoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block ACACIA_WOOD_POT = new WoodPot("acaciawoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block BIG_OAK_WOOD_POT = new WoodPot("bigoakwoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block JUNGLE_WOOD_POT = new WoodPot("junglewoodpot").setCreativeTab(ModTabs.potTab);
+	public static final Block CLAY_POT = new ClayPot("claypot").setCreativeTab(ModTabs.potTab);
+	public static final Block IRON_POT = new IronPot("ironpot").setCreativeTab(ModTabs.potTab);
 	
 	//Cheese
-	public static final Block CHEESE_MAKER = new CheeseMaker("cheesemaker");
-	public static final Block CHEESE_BLOCK = new BlockAdjustable("cheeseblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false);
-	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, 1.1f, false);
+	public static final Block CHEESE_MAKER = new CheeseMaker("cheesemaker").setCreativeTab(ModTabs.toolTab);
+	public static final Block CHEESE_BLOCK = new BlockAdjustable("cheeseblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, false).setCreativeTab(ModTabs.cropTab);
+	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, 1.1f, false).setCreativeTab(ModTabs.cropTab);
 	
 	//Honey
-	public static final Block BEEHIVE = new Beehive("beehive");
+	public static final Block BEEHIVE = new Beehive("beehive").setCreativeTab(ModTabs.toolTab);
 	
 	//Plants
 		//Shrub
 		//Wild
-		public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop");
+		public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop").setCreativeTab(ModTabs.debugTab);
 		//Domesticated
 }

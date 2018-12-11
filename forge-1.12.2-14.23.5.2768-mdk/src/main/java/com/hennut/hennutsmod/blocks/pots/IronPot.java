@@ -3,6 +3,7 @@ package com.hennut.hennutsmod.blocks.pots;
 import javax.annotation.Nullable;
 
 import com.hennut.hennutsmod.init.ModBlocks;
+import com.hennut.hennutsmod.init.ModTabs;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

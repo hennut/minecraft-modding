@@ -5,10 +5,10 @@ import com.hennut.hennutsmod.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
-public class HoneyTab extends CreativeTabs {
+public class ToolTab extends CreativeTabs {
 
-	public HoneyTab() {
-		super("honeytab");
+	public ToolTab() {
+		super("tooltab");
 	}
 
 	@Override

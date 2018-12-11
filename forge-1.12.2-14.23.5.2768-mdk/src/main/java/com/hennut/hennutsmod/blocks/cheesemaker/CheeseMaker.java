@@ -5,6 +5,7 @@ import java.util.Random;
 import com.hennut.hennutsmod.blocks.BlockWithModel;
 import com.hennut.hennutsmod.init.ModBlocks;
 import com.hennut.hennutsmod.init.ModItems;
+import com.hennut.hennutsmod.init.ModTabs;
 import com.hennut.hennutsmod.util.handlers.EnumHandler.CheeseStage;
 
 import net.minecraft.block.SoundType;

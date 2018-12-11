@@ -19,18 +19,18 @@ public class ModItems {
 	
 	
 	//Cheese
-	public static Item BUTTER = new FoodBase("butter", 3, false);
-	public static Item CHEESE_SLICE = new FoodBase("cheeseslice", 1, false);
+	public static Item BUTTER = new FoodBase("butter", 3, false).setCreativeTab(ModTabs.cropTab);
+	public static Item CHEESE_SLICE = new FoodBase("cheeseslice", 1, false).setCreativeTab(ModTabs.cropTab);
 	
 	//Honey
-	public static Item BEE_QUEEN = new ItemBase("beequeen");
-	public static Item HONEY_COMB = new ItemBase("honeycomb");
+	public static Item BEE_QUEEN = new ItemBase("beequeen").setCreativeTab(ModTabs.natureTab);
+	public static Item HONEY_COMB = new ItemBase("honeycomb").setCreativeTab(ModTabs.cropTab);
 	
 	//Plants
 		//Wild
-		public static Item WILD_LEAF = new WildLeafFruit("wildleaf", 1);
+		public static Item WILD_LEAF = new WildLeafFruit("wildleaf", 1).setCreativeTab(ModTabs.natureTab);
 		//Domesticated
-		public static Item LETTUCE_FRUIT = new FoodBase("lettucefruit", 2, false);
-		public static Item LETTUCE_SEED = new LettuceSeed("lettuceseed");
+		public static Item LETTUCE_FRUIT = new FoodBase("lettucefruit", 2).setCreativeTab(ModTabs.cropTab);
+		public static Item LETTUCE_SEED = new LettuceSeed("lettuceseed").setCreativeTab(ModTabs.cropTab);
 		
 }

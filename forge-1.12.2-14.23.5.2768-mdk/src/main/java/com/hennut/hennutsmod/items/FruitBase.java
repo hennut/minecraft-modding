@@ -22,6 +22,11 @@ import net.minecraftforge.common.IPlantable;
 public abstract class FruitBase extends FoodBase implements IPlantable {
 	
 	private EnumPlantType type;
+
+	public FruitBase(String name, int amount, EnumPlantType type) {
+		super(name, amount);
+		this.type = type;
+	}
 	
 	public FruitBase(String name, int amount, boolean isWolfFood, EnumPlantType type) {
 		super(name, amount, isWolfFood);

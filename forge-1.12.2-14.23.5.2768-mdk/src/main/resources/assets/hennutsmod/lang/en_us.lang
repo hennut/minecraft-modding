@@ -1,7 +1,7 @@
 //Tabs
 itemGroup.debugtab=Hennuts Mod: Debug
 itemGroup.pottab=Pots
-itemGroup.honeytab=Honey
+itemGroup.tooltab=Tools
 itemGroup.croptab=Garden
 itemGroup.naturetab=Environment
 
