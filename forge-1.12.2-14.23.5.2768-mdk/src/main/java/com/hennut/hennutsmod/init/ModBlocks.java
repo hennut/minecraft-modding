@@ -6,6 +6,7 @@ import java.util.List;
 import com.hennut.hennutsmod.blocks.BlockAdjustable;
 import com.hennut.hennutsmod.blocks.BlockBase;
 import com.hennut.hennutsmod.blocks.CropBase;
+import com.hennut.hennutsmod.blocks.beehive.BeeNest;
 import com.hennut.hennutsmod.blocks.beehive.Beehive;
 import com.hennut.hennutsmod.blocks.cheesemaker.CheeseMaker;
 import com.hennut.hennutsmod.blocks.crops.WildLeafCrop;
@@ -40,7 +41,11 @@ public class ModBlocks {
 	public static final Block BUTTER_BLOCK = new BlockAdjustable("butterblock", Material.CLAY, SoundType.SLIME, 1.0f, 5.0f, "", 0, 0, 1.1f, false).setCreativeTab(ModTabs.cropTab);
 	
 	//Honey
-	public static final Block BEEHIVE = new Beehive("beehive").setCreativeTab(ModTabs.toolTab);
+	public static final Block BEE_NEST = new BeeNest("beenest").setCreativeTab(ModTabs.natureTab);
+	public static final Block BEEHIVE_BLUE = new Beehive("beehiveblue").setCreativeTab(ModTabs.toolTab);
+	public static final Block BEEHIVE_YELLOW = new Beehive("beehiveyellow").setCreativeTab(ModTabs.toolTab);
+	public static final Block BEEHIVE_RED = new Beehive("beehivered").setCreativeTab(ModTabs.toolTab);
+	public static final Block BEEHIVE_GREEN = new Beehive("beehivegreen").setCreativeTab(ModTabs.toolTab);
 	
 	//Plants
 		//Shrub

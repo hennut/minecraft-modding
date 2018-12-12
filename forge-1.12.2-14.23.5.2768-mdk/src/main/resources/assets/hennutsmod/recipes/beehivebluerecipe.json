@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "-#-",
+        "###",
+        "#c#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:planks",
+            "data": 32767
+        },
+        "-": {
+            "item": "minecraft:iron_ingot"
+        },
+        "c": {
+            "item": "minecraft:light_blue_dye"
+        }
+    },
+    "result": {
+        "item": "hennutsmod:acaciawoodpot",
+        "count": 1
+    },
+    "group": "woodpot"
+}

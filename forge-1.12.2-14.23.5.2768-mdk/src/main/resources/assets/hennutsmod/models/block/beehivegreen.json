@@ -2,9 +2,9 @@
     "parent":"block/block",
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "hennutsmod:blocks/beehivetop",
-        "0": "hennutsmod:blocks/beehiveside",
-        "1": "hennutsmod:blocks/beehivetop"
+        "particle": "hennutsmod:blocks/beehivetopgreen",
+        "0": "hennutsmod:blocks/beehivesidegreen",
+        "1": "hennutsmod:blocks/beehivetopgreen"
     },
     "elements": [
         {
