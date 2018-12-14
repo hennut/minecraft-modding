@@ -123,4 +123,31 @@ public class EnumHandler {
 		}
 
 	}
+	
+	public static enum Status implements IStringSerializable {
+		OFF("off", 0), ON("on", 1);
+
+		private int ID;
+		private String name;
+
+		private Status(String name, int ID) {
+			this.ID = ID;
+			this.name = name;
+		}
+
+		@Override
+		public String getName() {
+			return this.name;
+		}
+
+		public int getID() {
+			return ID;
+		}
+
+		@Override
+		public String toString() {
+			return getName();
+		}
+
+	}
 }

@@ -8,6 +8,7 @@ import com.hennut.hennutsmod.blocks.BlockBase;
 import com.hennut.hennutsmod.blocks.BlockWithModel;
 import com.hennut.hennutsmod.blocks.CropBase;
 import com.hennut.hennutsmod.blocks.crops.WildLeafCrop;
+import com.hennut.hennutsmod.blocks.furniture.Candle;
 import com.hennut.hennutsmod.blocks.furniture.TableBase;
 import com.hennut.hennutsmod.blocks.tools.beehive.BeeNest;
 import com.hennut.hennutsmod.blocks.tools.beehive.Beehive;
@@ -55,4 +56,7 @@ public class ModBlocks {
 		
 	//Furniture
 	public static final Block WOODEN_TABLE = new TableBase("woodentable", Material.WOOD, SoundType.WOOD, 0.5f, 1.0f, "axe", 0, 0, false, new AxisAlignedBB(0, 0, 0, 1, 1, 1)).setCreativeTab(ModTabs.furnitureTab);
+	public static final Block CANDLE_OFF = new Candle("candleoff", Material.GROUND, SoundType.CLOTH, 0.5f, 1.0f, "", 0, 0, false, new AxisAlignedBB(0, 0, 0, 1, 1, 1), false).setCreativeTab(ModTabs.furnitureTab);
+	public static final Block CANDLE_ON = new Candle("candleon", Material.GROUND, SoundType.CLOTH, 0.5f, 1.0f, "", 0, 15, false, new AxisAlignedBB(0, 0, 0, 1, 1, 1), true).setCreativeTab(ModTabs.debugTab);
+	
 }

@@ -30,3 +30,5 @@ tile.butterblock.name=Butter Block
 tile.beenest.name=Bee Nest
 tile.beehive.name=Beehive
 tile.woodentable.name=Wooden Table
+tile.candleoff.name=Candle
+tile.candleon.name=Candle
