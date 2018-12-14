@@ -2,6 +2,7 @@ package com.hennut.hennutsmod.init;
 
 import com.hennut.hennutsmod.util.creativetabs.CropTab;
 import com.hennut.hennutsmod.util.creativetabs.DebugTab;
+import com.hennut.hennutsmod.util.creativetabs.FurnitureTab;
 import com.hennut.hennutsmod.util.creativetabs.ToolTab;
 import com.hennut.hennutsmod.util.creativetabs.NatureTab;
 import com.hennut.hennutsmod.util.creativetabs.PotTab;
@@ -15,4 +16,5 @@ public class ModTabs {
 	public static CreativeTabs toolTab = new ToolTab();
 	public static CreativeTabs cropTab = new CropTab();
 	public static CreativeTabs natureTab = new NatureTab();
+	public static CreativeTabs furnitureTab = new FurnitureTab();
 }

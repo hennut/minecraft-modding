@@ -1,4 +1,4 @@
-package com.hennut.hennutsmod.blocks.cheesemaker;
+package com.hennut.hennutsmod.blocks.tools.cheesemaker;
 
 import java.util.Random;
 
@@ -26,6 +26,7 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class CheeseMaker extends BlockWithModel{
@@ -82,5 +83,10 @@ public class CheeseMaker extends BlockWithModel{
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
 		return ModBlocks.IRON_POT.getItemDropped(ModBlocks.IRON_POT.getDefaultState(), rand, fortune);
+	}
+	
+	@Override
+	public boolean canPlaceTorchOnTop(IBlockState state, IBlockAccess world, BlockPos pos) {
+		return false;
 	}
 }

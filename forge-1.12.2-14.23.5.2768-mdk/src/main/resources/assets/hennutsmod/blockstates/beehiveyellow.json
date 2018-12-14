@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "stage=unfilled": { "model": "hennutsmod:beehiveyellow" },
-        "stage=one": { "model": "hennutsmod:beehiveyellow" },
-        "stage=two": { "model": "hennutsmod:beehiveyellow" },
-        "stage=three": { "model": "hennutsmod:beehiveyellow" },
-        "stage=four": { "model": "hennutsmod:beehiveyellow" }
-    }
-}

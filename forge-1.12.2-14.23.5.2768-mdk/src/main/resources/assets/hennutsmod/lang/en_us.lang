@@ -4,6 +4,7 @@ itemGroup.pottab=Pots
 itemGroup.tooltab=Tools
 itemGroup.croptab=Garden
 itemGroup.naturetab=Environment
+itemGroup.furnituretab=Furniture
 
 //Items
 item.butter.name=Butter
@@ -27,7 +28,5 @@ tile.cheesemaker.name=Iron Pot with Milk
 tile.cheeseblock.name=Cheese Block
 tile.butterblock.name=Butter Block
 tile.beenest.name=Bee Nest
-tile.beehiveblue.name=Beehive
-tile.beehiveyellow.name=Beehive
-tile.beehivered.name=Beehive
-tile.beehivegreen.name=Beehive
+tile.beehive.name=Beehive
+tile.woodentable.name=Wooden Table

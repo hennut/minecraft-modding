@@ -1,4 +1,4 @@
-package com.hennut.hennutsmod.blocks.pots;
+package com.hennut.hennutsmod.blocks.tools.pots;
 
 import javax.annotation.Nullable;
 

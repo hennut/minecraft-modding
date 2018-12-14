@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "#p#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:brick"
+        },
+        "p": {
+            "item": "hennutsmod:claypot"
+        }
+    },
+    "result": {
+        "item": "hennutsmod:beehive",
+        "count": 1
+    },
+    "group": "claypot"
+}

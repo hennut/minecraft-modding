@@ -96,4 +96,31 @@ public class EnumHandler {
 		}
 
 	}
+	
+	public static enum TableDirection implements IStringSerializable {
+		NONE("none", 0), ALL("all", 1), N("n", 2), S("s", 3), W("w", 4), E("e", 5), NW("nw", 6), NE("ne", 7), SW("sw", 8), SE("se", 9);
+
+		private int ID;
+		private String name;
+
+		private TableDirection(String name, int ID) {
+			this.ID = ID;
+			this.name = name;
+		}
+
+		@Override
+		public String getName() {
+			return this.name;
+		}
+
+		public int getID() {
+			return ID;
+		}
+
+		@Override
+		public String toString() {
+			return getName();
+		}
+
+	}
 }

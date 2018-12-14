@@ -5,20 +5,23 @@ import java.util.List;
 
 import com.hennut.hennutsmod.blocks.BlockAdjustable;
 import com.hennut.hennutsmod.blocks.BlockBase;
+import com.hennut.hennutsmod.blocks.BlockWithModel;
 import com.hennut.hennutsmod.blocks.CropBase;
-import com.hennut.hennutsmod.blocks.beehive.BeeNest;
-import com.hennut.hennutsmod.blocks.beehive.Beehive;
-import com.hennut.hennutsmod.blocks.cheesemaker.CheeseMaker;
 import com.hennut.hennutsmod.blocks.crops.WildLeafCrop;
-import com.hennut.hennutsmod.blocks.pots.ClayPot;
-import com.hennut.hennutsmod.blocks.pots.IronPot;
-import com.hennut.hennutsmod.blocks.pots.WoodPot;
+import com.hennut.hennutsmod.blocks.furniture.TableBase;
+import com.hennut.hennutsmod.blocks.tools.beehive.BeeNest;
+import com.hennut.hennutsmod.blocks.tools.beehive.Beehive;
+import com.hennut.hennutsmod.blocks.tools.cheesemaker.CheeseMaker;
+import com.hennut.hennutsmod.blocks.tools.pots.ClayPot;
+import com.hennut.hennutsmod.blocks.tools.pots.IronPot;
+import com.hennut.hennutsmod.blocks.tools.pots.WoodPot;
 import com.hennut.hennutsmod.util.domestication.Domestication.PLANT_TYPES;
 import com.hennut.hennutsmod.util.handlers.EnumHandler.CropAge;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.util.math.AxisAlignedBB;
 
 public class ModBlocks {
 
@@ -42,14 +45,14 @@ public class ModBlocks {
 	
 	//Honey
 	public static final Block BEE_NEST = new BeeNest("beenest").setCreativeTab(ModTabs.natureTab);
-	public static final Block BEEHIVE_BLUE = new Beehive("beehiveblue").setCreativeTab(ModTabs.toolTab);
-	public static final Block BEEHIVE_YELLOW = new Beehive("beehiveyellow").setCreativeTab(ModTabs.toolTab);
-	public static final Block BEEHIVE_RED = new Beehive("beehivered").setCreativeTab(ModTabs.toolTab);
-	public static final Block BEEHIVE_GREEN = new Beehive("beehivegreen").setCreativeTab(ModTabs.toolTab);
+	public static final Block BEEHIVE = new Beehive("beehive").setCreativeTab(ModTabs.toolTab);
 	
 	//Plants
 		//Shrub
 		//Wild
 		public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop").setCreativeTab(ModTabs.debugTab);
 		//Domesticated
+		
+	//Furniture
+	public static final Block WOODEN_TABLE = new TableBase("woodentable", Material.WOOD, SoundType.WOOD, 0.5f, 1.0f, "axe", 0, 0, false, new AxisAlignedBB(0, 0, 0, 1, 1, 1)).setCreativeTab(ModTabs.furnitureTab);
 }

@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "direction=all": { "model": "hennutsmod:woodentableall" },
+        "direction=none": { "model": "hennutsmod:woodentablenone" },
+        "direction=n": { "model": "hennutsmod:woodentabletwo", "y": 180 },
+        "direction=s": { "model": "hennutsmod:woodentabletwo", "y": 0 },
+        "direction=w": { "model": "hennutsmod:woodentabletwo", "y": 90 },
+        "direction=e": { "model": "hennutsmod:woodentabletwo", "y": 270 },
+        "direction=nw": { "model": "hennutsmod:woodentableone", "y": 180 },
+        "direction=ne": { "model": "hennutsmod:woodentableone", "y": 270 },
+        "direction=sw": { "model": "hennutsmod:woodentableone", "y": 90 },
+        "direction=se": { "model": "hennutsmod:woodentableone", "y": 0 }
+    }
+}

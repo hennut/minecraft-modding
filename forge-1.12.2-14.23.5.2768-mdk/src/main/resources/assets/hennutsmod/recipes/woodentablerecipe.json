@@ -1,25 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "-#-",
         "###",
-        "#c#"
+        "sss",
+        "s s"
     ],
     "key": {
         "#": {
             "item": "minecraft:planks",
             "data": 32767
         },
-        "-": {
-            "item": "minecraft:iron_ingot"
-        },
-        "c": {
-            "item": "minecraft:light_blue_dye"
+        "s": {
+            "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "hennutsmod:acaciawoodpot",
+        "item": "hennutsmod:woodentable",
         "count": 1
     },
-    "group": "woodpot"
+    "group": "furniture"
 }
