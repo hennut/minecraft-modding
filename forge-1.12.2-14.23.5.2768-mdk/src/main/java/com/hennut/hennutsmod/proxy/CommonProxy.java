@@ -1,6 +1,11 @@
 package com.hennut.hennutsmod.proxy;
 
+import com.hennut.hennutsmod.util.handlers.RegistryHandler;
+
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CommonProxy {
 

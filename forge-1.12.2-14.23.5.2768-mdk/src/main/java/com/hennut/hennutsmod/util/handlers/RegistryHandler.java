@@ -1,6 +1,7 @@
 package com.hennut.hennutsmod.util.handlers;
 
 import com.hennut.hennutsmod.init.ModBlocks;
+import com.hennut.hennutsmod.init.ModGenerators;
 import com.hennut.hennutsmod.init.ModItems;
 import com.hennut.hennutsmod.util.IHasModel;
 
@@ -37,5 +38,9 @@ public class RegistryHandler {
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+
+	public static void registerGenerators(){
+		new ModGenerators();
 	}
 }
