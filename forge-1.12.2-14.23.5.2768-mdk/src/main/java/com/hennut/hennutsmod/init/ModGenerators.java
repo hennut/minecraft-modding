@@ -13,7 +13,8 @@ public class ModGenerators {
 	public ModGenerators(){
 		GameRegistry.registerWorldGenerator(new ModOreGeneration(
 				
-					new Generation(new WorldGenMinable(ModBlocks.BEE_NEST.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.LEAVES)), 100, 0, 256, 0, "Bee nest generator")
+					new Generation(new WorldGenMinable(ModBlocks.BEE_NEST.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.LEAVES)), 100, 0, 256, 0, "Bee nest generator"),
+					new Generation(new WorldGenMinable(ModBlocks.SALT_ORE.getDefaultState(), 9, BlockMatcher.forBlock(Blocks.STONE)), 50, 35, 256, 0, "Salt ore generator")
 					
 				), 0);
 	}

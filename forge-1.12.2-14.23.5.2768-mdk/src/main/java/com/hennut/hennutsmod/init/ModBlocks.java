@@ -8,7 +8,8 @@ import com.hennut.hennutsmod.blocks.BlockBase;
 import com.hennut.hennutsmod.blocks.BlockWithModel;
 import com.hennut.hennutsmod.blocks.CropBase;
 import com.hennut.hennutsmod.blocks.crops.WildLeafCrop;
-import com.hennut.hennutsmod.blocks.environment.BeeNest;
+import com.hennut.hennutsmod.blocks.environment.ores.BeeNest;
+import com.hennut.hennutsmod.blocks.environment.ores.SaltOre;
 import com.hennut.hennutsmod.blocks.furniture.Candle;
 import com.hennut.hennutsmod.blocks.furniture.TableBase;
 import com.hennut.hennutsmod.blocks.tools.beehive.Beehive;
@@ -48,11 +49,13 @@ public class ModBlocks {
 	public static final Block BEE_NEST = new BeeNest("beenest").setCreativeTab(ModTabs.natureTab);
 	public static final Block BEEHIVE = new Beehive("beehive").setCreativeTab(ModTabs.toolTab);
 	
-	//Plants
-		//Shrub
-		//Wild
-		public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop").setCreativeTab(ModTabs.debugTab);
-		//Domesticated
+	//Shrub
+	//Wild Plants
+	public static final Block WILD_LEAF_CROP = new WildLeafCrop("wildleafcrop").setCreativeTab(ModTabs.debugTab);
+	//Domesticated Plants
+	
+	//Ores
+	public static final Block SALT_ORE = new SaltOre("saltore", Material.ROCK, SoundType.SAND, 5.0f, 10.0f, "pickaxe", 1).setCreativeTab(ModTabs.debugTab);
 		
 	//Furniture
 	public static final Block WOODEN_TABLE = new TableBase("woodentable", Material.WOOD, SoundType.WOOD, 0.5f, 1.0f, "axe", 0, 0, false, new AxisAlignedBB(0, 0, 0, 1, 1, 1)).setCreativeTab(ModTabs.furnitureTab);

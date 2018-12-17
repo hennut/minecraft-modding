@@ -26,11 +26,14 @@ public class ModItems {
 	public static Item BEE_QUEEN = new ItemBase("beequeen").setCreativeTab(ModTabs.natureTab);
 	public static Item HONEY_COMB = new ItemBase("honeycomb").setCreativeTab(ModTabs.cropTab);
 	
-	//Plants
-		//Wild
-		public static Item WILD_LEAF = new WildLeafFruit("wildleaf", 1).setCreativeTab(ModTabs.natureTab);
-		//Domesticated
-		public static Item LETTUCE_FRUIT = new FoodBase("lettucefruit", 2).setCreativeTab(ModTabs.cropTab);
-		public static Item LETTUCE_SEED = new LettuceSeed("lettuceseed").setCreativeTab(ModTabs.cropTab);
+	//Wild Plants
+	public static Item WILD_LEAF = new WildLeafFruit("wildleaf", 1).setCreativeTab(ModTabs.natureTab);
+	
+	//Domesticated Plants
+	public static Item LETTUCE_FRUIT = new FoodBase("lettucefruit", 2).setCreativeTab(ModTabs.cropTab);
+	public static Item LETTUCE_SEED = new LettuceSeed("lettuceseed").setCreativeTab(ModTabs.cropTab);
+	
+	//Ore
+	public static Item SALT = new FoodBase("salt", 1).setCreativeTab(ModTabs.natureTab);
 		
 }

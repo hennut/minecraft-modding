@@ -1,4 +1,4 @@
-package com.hennut.hennutsmod.blocks.environment;
+package com.hennut.hennutsmod.blocks.environment.ores;
 
 import java.util.Random;
 

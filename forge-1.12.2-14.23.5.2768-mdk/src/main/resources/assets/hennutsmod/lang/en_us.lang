@@ -14,6 +14,7 @@ item.honeycomb.name=Honey Comb
 item.wildleaf.name=Wild Leaf
 item.lettucefruit.name=Lettuce
 item.lettuceseed.name=Lettuce Seeds
+item.salt.name=Salt
 
 //Blocks
 tile.oakwoodpot.name=Wooden Pot
@@ -32,3 +33,4 @@ tile.beehive.name=Beehive
 tile.woodentable.name=Wooden Table
 tile.candleoff.name=Candle
 tile.candleon.name=Candle
+tile.saltore.name=Salt Ore
