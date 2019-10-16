@@ -1,0 +1,9 @@
+item.honey.name=Honey
+item.queenBee.name=Queen Bee
+
+tile.beehive.name=Beehive
+tile.beenest.name=Bee Nest
+tile.stool.name=Stool
+tile.table.name=Table
+
+itemGroup.tabWildOverhaul=Wild Overhaul

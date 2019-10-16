@@ -1,0 +1,15 @@
+[
+{
+  "modid": "hwo",
+  "name": "Hennuts Wild Overhaul",
+  "description": "Overhaul for many aspects of this game.",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Hennut"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
